@@ -39,14 +39,26 @@ namespace SleepCalculator
             void LabelsVisible()
             {
                 label2.Visible = true;
-
-                time1.Visible = true;
-                time2.Visible = true;
-                time3.Visible = true;
-                time4.Visible = true;
-
                 label7.Visible = true;
                 label8.Visible = true;
+            }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            LabelsVisible();
+
+            DateTime curentTime = DateTime.Now;
+
+            time5.Text = curentTime.AddHours(4.73f).ToString(timeFormat);
+            time6.Text = curentTime.AddHours(6.23f).ToString(timeFormat);
+            time7.Text = curentTime.AddHours(7.73f).ToString(timeFormat);
+            time8.Text = curentTime.AddHours(9.23f).ToString(timeFormat);
+                
+            void LabelsVisible()
+            {
+                label10.Visible = true;
+                label11.Visible = true;
             }
         }
     }

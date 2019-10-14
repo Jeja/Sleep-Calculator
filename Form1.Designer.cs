@@ -127,40 +127,32 @@
             this.time4.AutoSize = true;
             this.time4.Location = new System.Drawing.Point(328, 62);
             this.time4.Name = "time4";
-            this.time4.Size = new System.Drawing.Size(44, 18);
+            this.time4.Size = new System.Drawing.Size(0, 18);
             this.time4.TabIndex = 4;
-            this.time4.Text = "01:30";
-            this.time4.Visible = false;
             // 
             // time3
             // 
             this.time3.AutoSize = true;
             this.time3.Location = new System.Drawing.Point(229, 62);
             this.time3.Name = "time3";
-            this.time3.Size = new System.Drawing.Size(44, 18);
+            this.time3.Size = new System.Drawing.Size(0, 18);
             this.time3.TabIndex = 3;
-            this.time3.Text = "00:00";
-            this.time3.Visible = false;
             // 
             // time2
             // 
             this.time2.AutoSize = true;
             this.time2.Location = new System.Drawing.Point(136, 62);
             this.time2.Name = "time2";
-            this.time2.Size = new System.Drawing.Size(44, 18);
+            this.time2.Size = new System.Drawing.Size(0, 18);
             this.time2.TabIndex = 2;
-            this.time2.Text = "22:30";
-            this.time2.Visible = false;
             // 
             // time1
             // 
             this.time1.AutoSize = true;
             this.time1.Location = new System.Drawing.Point(50, 62);
             this.time1.Name = "time1";
-            this.time1.Size = new System.Drawing.Size(44, 18);
+            this.time1.Size = new System.Drawing.Size(0, 18);
             this.time1.TabIndex = 1;
-            this.time1.Text = "21:00";
-            this.time1.Visible = false;
             // 
             // label2
             // 
@@ -234,40 +226,32 @@
             this.time8.AutoSize = true;
             this.time8.Location = new System.Drawing.Point(326, 95);
             this.time8.Name = "time8";
-            this.time8.Size = new System.Drawing.Size(44, 18);
+            this.time8.Size = new System.Drawing.Size(0, 18);
             this.time8.TabIndex = 5;
-            this.time8.Text = "10:30";
-            this.time8.Visible = false;
             // 
             // time7
             // 
             this.time7.AutoSize = true;
             this.time7.Location = new System.Drawing.Point(229, 95);
             this.time7.Name = "time7";
-            this.time7.Size = new System.Drawing.Size(44, 18);
+            this.time7.Size = new System.Drawing.Size(0, 18);
             this.time7.TabIndex = 4;
-            this.time7.Text = "09:00";
-            this.time7.Visible = false;
             // 
             // time6
             // 
             this.time6.AutoSize = true;
             this.time6.Location = new System.Drawing.Point(128, 95);
             this.time6.Name = "time6";
-            this.time6.Size = new System.Drawing.Size(44, 18);
+            this.time6.Size = new System.Drawing.Size(0, 18);
             this.time6.TabIndex = 3;
-            this.time6.Text = "07:30";
-            this.time6.Visible = false;
             // 
             // time5
             // 
             this.time5.AutoSize = true;
             this.time5.Location = new System.Drawing.Point(36, 95);
             this.time5.Name = "time5";
-            this.time5.Size = new System.Drawing.Size(44, 18);
+            this.time5.Size = new System.Drawing.Size(0, 18);
             this.time5.TabIndex = 2;
-            this.time5.Text = "06:00";
-            this.time5.Visible = false;
             // 
             // label11
             // 
@@ -298,6 +282,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "ZZZz";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // label9
             // 
